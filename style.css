@@ -1,0 +1,49 @@
+    body {
+        margin: 0 auto;
+    }
+    
+    .mobile-screen {
+        margin: 0 auto;
+        width: 300px;
+        padding: 100px;
+        background-color: #1db954;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    
+    nav {
+        min-height: 50px;
+        height: 55px;
+        background-color: black;
+    }
+    
+    nav li {
+        display: inline-block;
+        color: grey;
+        list-style: none;
+        padding: 10px;
+        text-align: center;
+        transition-duration: .5s;
+        font-size: 20px;
+    }
+    
+    span {
+        opacity: 0;
+        font-size: 15px;
+    }
+    
+    nav li:hover,
+    nav li:hover fa-search {
+        color: white;
+        transform: translateY(-5px);
+        transition-duration: .5s;
+    }
+    
+    nav li:hover span {
+        opacity: 1;
+        transition-duration: .5s;
+    }
